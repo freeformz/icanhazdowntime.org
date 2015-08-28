@@ -11,9 +11,9 @@ paginate = 5
 [params]
   DateForm = "Jan 2 2006"
   home = "Home"
-  truncate = false
+  truncate = true
   theme = "theme-base-08 layout-reverse"
-  highlight = "monokai"
+  highlight = "dark"
   tagline = "I Can Haz Downtime ?"
   github = "https://github.com/freeformz"
   rss = true

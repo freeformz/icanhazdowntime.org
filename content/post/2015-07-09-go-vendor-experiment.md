@@ -1,14 +1,14 @@
 +++
 categories = ["go", "development"]
 date = "2015-07-09"
-description = ""
+description = "An exploration of Go 1.5's vendor/ experiment."
 keywords = ["go"]
 tags = ["go"]
 title = "Go 1.5's vendor/ experiment"
 published = true
 +++
 
-Go currently (pre 1.5) doesn’t provide any built in method for [vendoring](https://groups.google.com/forum/m/#!topic/golang-dev/nMWoEAG55v8) packages. The tools that currently exist today ([godep](http://github.com/tools/godep), [nut](https://github.com/jingweno/nut) and a few others) basically exploit the implementation details of **_$GOPATH_**. Go 1.5 however includes a “vendor experiment”. With this experiment `go` commands will attempt to resolve dependencies in `vendor/` directories.
+Go versions before 1.5 did not provide any built in method for [vendoring](https://groups.google.com/forum/m/#!topic/golang-dev/nMWoEAG55v8) packages. The tools that currently exist today ([godep](http://github.com/tools/godep), [nut](https://github.com/jingweno/nut) and a few others) basically exploit the implementation details of **_$GOPATH_**. Go 1.5 however includes a “vendor experiment”. With this experiment `go` commands will attempt to resolve dependencies in `vendor/` directories.
 
 Russ Cox explains it fairly well in his [commit message](https://github.com/golang/go/commit/183cc0cd41f06f83cb7a2490a499e3f9101befff):
 

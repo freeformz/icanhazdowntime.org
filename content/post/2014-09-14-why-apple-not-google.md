@@ -2,6 +2,7 @@
 date = "2014-09-14"
 title = "Why Apple, not Google?"
 published = true
+description = "I've been reading a lot of stuff about Apple's new products this week ( Watch, iPhone 6 & Pay). This got me thinking about why I, for the most part, prefer Apple products over Google products."
 tags = ["apple", "ios", "google", "android"]
 +++
 

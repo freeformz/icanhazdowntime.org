@@ -1,7 +1,7 @@
 +++
 categories = ["go", "heroku"]
 date = "2015-04-17"
-description = ""
+description = "Quick Start guide to deploying a simple 'Hello World' Go application to Heroku."
 keywords = ["go", "heroku"]
 tags = ["go", "heroku"]
 title = "Go + Heroku : Hello World"
