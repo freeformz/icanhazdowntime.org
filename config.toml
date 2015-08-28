@@ -3,7 +3,7 @@ baseurl = "http://icanhazdowntime.org/"
 title = "I Can Haz Downtime ?"
 MetaDataFormat = "toml"
 languageCode = "en-us"
-paginate = 5
+paginate = 10
 
 [author]
   name = "freeformz"

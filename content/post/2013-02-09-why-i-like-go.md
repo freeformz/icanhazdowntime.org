@@ -1,7 +1,7 @@
 +++
 categories = ["go"]
 date = "2013-02-09"
-description = ""
+description = "I visited with PagerDuty yesterday for a little Friday beer and pizza. While there I got started talking about Go. I was asked by their CEO, why I liked it. Several other people have asked me the same question recently, so I figured it was worth posting."
 tags = ["go"]
 keywords = ["go"]
 title = "Why I Like Go"
