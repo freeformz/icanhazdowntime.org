@@ -1,8 +1,8 @@
 +++
 date = "2015-08-18T10:11:50-07:00"
-description = "Using the Heroku docker cli plugin to deploy a Go application to Heroku."
-keywords = ["go", "heroku"]
-categories = ["go", "heroku"]
+description = "Using the Heroku Docker cli plugin to deploy a Go application to Heroku."
+keywords = ["go", "heroku", "docker"]
+categories = ["go", "heroku", "docker"]
 title = "Deploying Go Apps to Heroku with Docker"
 published = true
 +++
