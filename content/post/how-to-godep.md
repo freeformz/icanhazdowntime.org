@@ -4,7 +4,7 @@ date = "2015-10-08T15:26:51-07:00"
 description = "How to use godep in your project"
 keywords = ["go"]
 title = "How To Godep"
-published = false
+draft = true
 +++
 
 I often see people confused about how to use [Godep][godep] inside of their projects and I want to share how *I* use it.
