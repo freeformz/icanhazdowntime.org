@@ -18,7 +18,7 @@ When you run the code above you get `Fooer: 5` for output.
 
 ## What's happening?
 
-**Bar** implement **Foo() int** so instances of it match the **Fooer** interface. If you change **Bar{}** to **&Bar{}** to create a pointer to a **Bar**, the [program](https://play.golang.org/p/M54OuYH9CU) runs and still works. This is because, as per the [GoSpec](https://golang.org/ref/spec#Method_sets): *pointer type \*T is the set of all methods declared with receiver \*T or T (that is, it also contains the method set of T)*. Since **Foo()** is declared on **Bar**, both an instance of **Bar** (**Bar{}**) and a pointer to an instance of **Bar** (**&Bar{}**) have the method **Foo() int**.
+**Bar** implements **Foo() int** so instances of it match the **Fooer** interface. If you change **Bar{}** to **&Bar{}** to create a pointer to a **Bar**, the [program](https://play.golang.org/p/M54OuYH9CU) runs and still works. This is because, as per the [GoSpec](https://golang.org/ref/spec#Method_sets): *pointer type \*T is the set of all methods declared with receiver \*T or T (that is, it also contains the method set of T)*. Since **Foo()** is declared on **Bar**, both an instance of **Bar** (**Bar{}**) and a pointer to an instance of **Bar** (**&Bar{}**) have the method **Foo() int**.
 
 Right now **Foo()** isn't doing anything interesting though, just returning the integer **5**.
 
@@ -31,7 +31,7 @@ Let's modify the program a little so that **Foo()** actually does something: inc
 
 Run the program. It may not output what you expected. You may have expected the second call to **DoFoo** to output `Fooer: 2`, but instead `Fooer: 1` was output both times.
 
-This happened because **Foo()** is declared on **Bar** (the non pointer version) and **Foo()**'s receiver is a copy of the **Bar** the was passed to **DoFoo**.
+This happened because **Foo()** is declared on **Bar** (the non pointer version) and **Foo()**'s receiver is a copy of the **Bar** that was passed to **DoFoo**.
 
 All parameters, including receivers, are pass by value and are copies of the original (this includes pointers btw, they are just copies of the pointer itself). Since it's a copy, we always start out with the initial value of **val**, which is **0**.
 
