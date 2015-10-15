@@ -4,7 +4,7 @@ date = "2015-10-14T15:05:14-07:00"
 description = "I've recently seen a bit of confusion around types, pointers to types, receivers for the two and interfaces. I'm going to try to clarify that confusion a bit with some examples."
 keywords = ["Go"]
 title = "Type, *Type, Receivers & Interfaces"
-draft = true
+published=true
 +++
 
 I've recently seen a bit of confusion around types, pointers to types, receivers for the two and interfaces. I'm going to try to clarify that confusion a bit with some examples.
