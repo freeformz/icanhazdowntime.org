@@ -45,5 +45,6 @@ To fix, we need to declare both **Foo()** on **\*Bar** *AND* pass a **\*Bar** to
 <a href="https://play.golang.org/p/gOT_oyV327">see this code in play.golang.org</a>
 <iframe src="https://play.golang.org/p/gOT_oyV327" frameborder="0" style="width: 100%; height: 35em"></iframe>
 
+## Fin
 
-I hope these examples help.
+I hope these examples help clear up confusion and show the relationships between T, *T, receivers and interfaces.
