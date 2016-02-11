@@ -7,8 +7,9 @@ title = "On Variable Declarations: Slices"
 published=true
 +++
 
-There are several different ways to declare slices in Go. 
-IMO, there is an implied meaning to each of the different ways that I'd like to highlight:
+There are several different ways to declare [slices in Go](https://golang.org/doc/effective_go.html#slices). 
+
+IMO, there is an implied meaning to each of these different ways:
 
 1. `var foo []T` : Declare a slice that the code is going to start appending an unknown number of items to and/or the number doesn't matter.
 1. `var foo = []T{ ... }` or `foo := []T{ ... }` : Where `...` is a list of items of type `T`. Declare a slice where the code has already figured out how to fill it and it's unlikely to change much or at all while I reference it. Prefer the later. Also seen as `return []T{ ... }`.
