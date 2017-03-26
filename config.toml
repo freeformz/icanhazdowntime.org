@@ -10,10 +10,7 @@ DisqusShortname = "icanhazdowntime"
 
 [params]
   author = "Edward Muller"
-  cover = "images/craterlake1.png"
   logo = "images/logo.png"
-  bio = ""
-  DateForm = "Jan 2 2006"
   home = "Home"
   truncate = true
   theme = "theme-base-08 layout-reverse"
