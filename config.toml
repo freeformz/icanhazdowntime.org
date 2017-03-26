@@ -1,31 +1,41 @@
-theme = "hyde-x"
-baseurl = "http://icanhazdowntime.org/"
+theme = "casper"
+BaseUrl = "http://icanhazdowntime.org/"
 title = "I Can Haz Downtime ?"
 MetaDataFormat = "toml"
-languageCode = "en-us"
+LanguageCode = "en-us"
 paginate = 10
-
-[author]
-  name = "freeformz"
+Copyright = "All Rights Reserved - 2006"
+canonifyurls = true
+DisqusShortname = "icanhazdowntime"
 
 [params]
+  author = "Edward Muller"
+  cover = "images/craterlake1.png"
+  logo = "images/logo.png"
+  bio = ""
   DateForm = "Jan 2 2006"
   home = "Home"
   truncate = true
   theme = "theme-base-08 layout-reverse"
   highlight = "dark"
   tagline = "I Can Haz Downtime ?"
-  github = "https://github.com/freeformz"
+  githubName = "freeformz"
+  twitterName = "freeformz"
   rss = true
-  googleAnalytics = "UA-66343817-1"
+  googleAnalyticsUserID = "UA-66343817-1"
   gravatarHash = "d0ddef50299354758664f679265746cd"
   googleAuthorship = "116042395341045951089"
   linkedin = "https://www.linkedin.com/in/freeformz"
-  # googleplus = "https://plus.google.com/116042395341045951089"
-  facebook = "https://www.facebook.com/freeformz"
-  twitter = "https://twitter.com/freeformz"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  series = "series"
+[[menu.main]]
+  name = "My Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
+

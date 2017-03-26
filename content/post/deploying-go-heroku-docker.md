@@ -1,10 +1,10 @@
 +++
 date = "2015-08-18T10:11:50-07:00"
-description = "Using the Heroku Docker cli plugin to deploy a Go application to Heroku."
-keywords = ["go", "heroku", "docker"]
-categories = ["go", "heroku", "docker"]
 title = "Deploying Go Apps to Heroku with Docker"
 published = true
+keywords = ["go", "heroku", "docker"]
+categories = ["go", "heroku", "docker"]
+tags = ["go", "heroku", "docker"]
 +++
 
 This post covers using the [`heroku docker`][heroku-docker] cli plugin to deploy a [Go][go] application to [Heroku][heroku]. Only Linux and MAC OSX are supported until [`docker-compose`][docker-compose] supports MS Windows.

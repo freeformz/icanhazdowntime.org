@@ -1,7 +1,6 @@
 +++
 categories = ["go"]
 date = "2015-10-08T15:26:51-07:00"
-description = "How to use godep in your project"
 keywords = ["go"]
 title = "How To Godep"
 draft = true

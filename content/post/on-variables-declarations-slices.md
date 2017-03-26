@@ -1,10 +1,11 @@
 +++
-categories = ["Go"]
 date = "2016-02-10T19:00:00-00:00"
-description = "Thoughts on what the different slice declaration methods mean"
-keywords = ["Go"]
 title = "On Variable Declarations: Slices"
-published=true
+published = true
+categories = ["go"]
+keywords = ["go"]
+tags = ["go"]
+image = "images/slice.jpg"
 +++
 
 There are several different ways to declare [slices in Go](https://golang.org/doc/effective_go.html#slices). 
