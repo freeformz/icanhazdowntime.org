@@ -18,6 +18,7 @@ When he is not programming he's usually smoking meat, playing with his kids, wal
 # Code
 
 * [Minor contributions](https://github.com/golang/go/commits?author=freeformz) to the [Go programming language](https://github.com/golang/go/blob/4b50c81356b7e36ae1de1651eb3f5fb9df3211dd/CONTRIBUTORS#L370).
+* [Minor contributions](https://github.com/golang/dep/commits?author=freeformz) to the [dep package management tool](https://github.com/golang/dep)
 * [SHH](https://github.com/heroku/shh): Systems Heuristics Herald - Systems Metrics Collector/Reporter (Originally https://github.com/freeformz/shh)
 * [Logglier](https://github.com/freeformz/logglier): Send log messages from ruby to Loggly
 * [Godep](https://github.com/tools/godep): Vendoring tool for Go. Inherited from [kr](https://github.com/kr)
@@ -32,7 +33,10 @@ When he is not programming he's usually smoking meat, playing with his kids, wal
 
 # Speaker Bio
 
+Edward Muller is a software engineer @ [Heroku](https://heroku.com), where he has worked on databases, infrastructure, metrics and logs before becoming the Go language owner. In that capacity he's seen a lot of Go code and helped many developers deliver production quality code.
+
 ## 2016
+* [GopherCon 2017](https://www.gophercon.com/speakers/10) [Slides](bit.ly/GoAntiPatterns2017)
 * [GopherCon 2016](https://www.youtube.com/watch?v=VjnVjGRUDro)
 * [Go Time FM #10](https://changelog.com/gotime/10)
 
