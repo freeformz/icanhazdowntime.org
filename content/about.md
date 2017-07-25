@@ -36,7 +36,7 @@ When he is not programming he's usually smoking meat, playing with his kids, wal
 Edward Muller is a software engineer @ [Heroku](https://heroku.com), where he has worked on databases, infrastructure, metrics and logs before becoming the Go language owner. In that capacity he's seen a lot of Go code and helped many developers deliver production quality code.
 
 ## 2016
-* [GopherCon 2017](https://www.gophercon.com/speakers/10) [Slides](https://bit.ly/GoAntiPatterns2017)
+* [GopherCon 2017](https://www.gophercon.com/speakers/10) [Slides](https://bit.ly/GoAntiPatterns2017) [Video](http://bit.ly/GoAntiPatterns2017Video)
 * [GopherCon 2016](https://www.youtube.com/watch?v=VjnVjGRUDro)
 * [Go Time FM #10](https://changelog.com/gotime/10)
 
