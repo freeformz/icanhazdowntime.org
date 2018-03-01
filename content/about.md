@@ -7,13 +7,13 @@ categories = ["about"]
 comments = false
 +++
 
-Edward is a programmer living in the suburbs of Portland, OR. Goes by the name `freeformz` at most places online.
-When he is not programming he's usually smoking meat, playing with his kids, walking his dog, or helping out some bunnies.
+Edward is a software engineering manager and programmer living in the suburbs of Portland, OR. He goes by the name `freeformz` online. When he is not prioritizing his teams needs he can be found cooking, playing with his kids, walking his dog, helping out some bunnies, or programming.
 
 # Contact
 
-* [edwardam@interlix.com](mailto:edwardam@interlix.com)
-* [@freeformz](https://twitter.com/freeformz)
+* [Email](mailto:edwardam@interlix.com)
+* [Twitter](https://twitter.com/freeformz)
+* [Instagram](https://www.instagram.com/freeformz/)
 
 # Code
 
@@ -26,20 +26,25 @@ When he is not programming he's usually smoking meat, playing with his kids, wal
 
 # Community
 
-* [PDX Go](https://www.meetup.com/PDX-Go/) Co-organizer.
+* [PDX Go](https://www.meetup.com/PDX-Go/) occasional helper.
 * [Go Bridge](https://golangbridge.org/) member.
 * [Gopher Slack](https://invite.slack.golangbridge.org/) lurker.
 * [Rabbit Advocates](http://www.rabbitadvocates.org/) Foster.
 
 # Speaker Bio
 
-Edward Muller is a software engineer @ [Heroku](https://heroku.com), where he has worked on databases, infrastructure, metrics and logs before becoming the Go language owner. In that capacity he's seen a lot of Go code and helped many developers deliver production quality code.
+Edward Muller is the software engineering manager of [Salesforce's Heroku](https://heroku.com) Operational Experience Team. The Heroku OpEx team is responsible for collecting, aggregating, acting on, and surfacing application metrics to Heroku's customers. Before realizing that he wanted to work with people more than code he worked as an engineer on databases, infrastructure, metrics and logs before becoming the Go language owner.
+
+## 2017
+
+* [GopherCon 2017](http://bit.ly/GoAntiPatterns2017Video) [Slides](https://bit.ly/GoAntiPatterns2017)
 
 ## 2016
-* [GopherCon 2017](http://bit.ly/GoAntiPatterns2017Video) [Slides](https://bit.ly/GoAntiPatterns2017)
+
 * [GopherCon 2016](https://www.youtube.com/watch?v=VjnVjGRUDro)
 * [Go Time FM #10](https://changelog.com/gotime/10)
 
 ## 2013
+
 * [SF Metrics Meetup](http://blog.librato.com/posts/2013/3/29/sf-metrics-meetup-system-heuristics-herald-and-seeing-the-forest-for-the-trees)
 
