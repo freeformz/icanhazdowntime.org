@@ -1,32 +1,48 @@
 theme = "beautifulhugo"
 BaseUrl = "http://icanhazdowntime.org/"
+DefaultContentLanguage = "en"
 title = "I Can Haz Downtime ?"
+subtitle = "Yes"
 MetaDataFormat = "toml"
 LanguageCode = "en-us"
-paginate = 10
-Copyright = "All Rights Reserved - 2006"
+paginate = 5
+Copyright = "All Rights Reserved - 2018"
 canonifyurls = true
 DisqusShortname = "icanhazdowntime"
-disqusShortname = "icanhazdowntime"
-pygmentsCodeFences = true
+pygmentsStyle = "trac"
 pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 googleAnalytics = "UA-66343817-1"
 
-[params]
-  author = "Edward Muller"
-  logo = "images/logo.png"
+[Params]
+  comments = true
+  #logo = "images/logo.png"
   home = "Home"
-  truncate = true
+  commit = true
+  readingTime = true
+  useHLJS = true
   theme = "theme-base-08 layout-reverse"
   highlight = "dark"
   tagline = "I Can Haz Downtime ?"
   githubName = "freeformz"
   twitterName = "freeformz"
   rss = true
-  googleAnalyticsUserID = "UA-66343817-1"
   gravatarHash = "d0ddef50299354758664f679265746cd"
   googleAuthorship = "116042395341045951089"
   linkedin = "https://www.linkedin.com/in/freeformz"
+
+[Author]
+  name = "Edward Muller"
+  website = "icanhazdowntime.org"
+  email = "edwardam@interlix.com"
+  facebook = "freeformz"
+  googleplus = "+freeformz" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "freeformz"
+  twitter = "freeformz"
+  reddit = "freeformz"
+  linkedin = "freeformz"
+  instagram = "freeformz"
 
 [[menu.main]]
   name = "About me"
