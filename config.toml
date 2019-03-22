@@ -23,9 +23,14 @@ DisqusShortname = "icanhazdowntime"
   hidecredits = false
   hidecopyright = false
 
+  commit = "https://github.com/freeformz/icanhazdowntime.org/tree/"
+
   rtl = false
   math = true
-  custom_css = ["css/custom.css"]
+
+  #custom_css = ["css/custom.css"]
+
+  maxSeeAlsoItems = 5
 
 # Social links
 [[params.social]]
