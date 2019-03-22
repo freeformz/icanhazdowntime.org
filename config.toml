@@ -1,52 +1,60 @@
-theme = "beautifulhugo"
 BaseUrl = "http://icanhazdowntime.org/"
-DefaultContentLanguage = "en"
-title = "I Can Haz Downtime ?"
-subtitle = "Yes"
-MetaDataFormat = "toml"
-LanguageCode = "en-us"
-paginate = 5
-Copyright = "All Rights Reserved - 2018"
+title = "Edward Muller"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 25
 canonifyurls = true
+
 DisqusShortname = "icanhazdowntime"
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-googleAnalytics = "UA-66343817-1"
 
-[Params]
-  comments = true
-  #logo = "images/logo.png"
-  home = "Home"
-  commit = true
-  readingTime = true
-  useHLJS = true
-  theme = "theme-base-08 layout-reverse"
-  highlight = "dark"
-  tagline = "I Can Haz Downtime ?"
-  githubName = "freeformz"
-  twitterName = "freeformz"
-  rss = true
-  gravatarHash = "d0ddef50299354758664f679265746cd"
-  googleAuthorship = "116042395341045951089"
-  linkedin = "https://www.linkedin.com/in/freeformz"
+[params]
+  author = "Edward Muller (aka @freeformz)"
+  info = ""
+  description = "Edward's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
 
-[Author]
-  name = "Edward Muller"
-  website = "icanhazdowntime.org"
-  email = "edwardam@interlix.com"
-  facebook = "freeformz"
-  googleplus = "+freeformz" # or xxxxxxxxxxxxxxxxxxxxx
-  github = "freeformz"
-  twitter = "freeformz"
-  reddit = "freeformz"
-  linkedin = "freeformz"
-  instagram = "freeformz"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
 
+  footercontent = ""
+  hidecredits = false
+  hidecopyright = false
+
+  rtl = false
+  math = true
+  custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/freeformz/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab fa-2x"
+    weight = 2
+    url = "https://gitlab.com/freeformz/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/freeformz/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/freeformz/"
+
+# Menu links
 [[menu.main]]
-  name = "About me"
-  weight = -110
-  identifier = "about"
-  url = "/about"
-
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
