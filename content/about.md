@@ -17,6 +17,7 @@ Edward Muller is a software engineer/manager living in the suburbs of Portland, 
 
 # Code
 
+* My [github](https://github.com/freeformz) profile.
 * [Minor contributions](https://github.com/golang/go/commits?author=freeformz) to the [Go programming language](https://github.com/golang/go/blob/4b50c81356b7e36ae1de1651eb3f5fb9df3211dd/CONTRIBUTORS#L370).
 * [Minor contributions](https://github.com/golang/dep/commits?author=freeformz) to the [dep package management tool](https://github.com/golang/dep)
 * [SHH](https://github.com/heroku/shh): Systems Heuristics Herald - Systems Metrics Collector/Reporter (Originally https://github.com/freeformz/shh)
