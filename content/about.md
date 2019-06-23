@@ -7,8 +7,6 @@ categories = ["about"]
 comments = false
 +++
 
-Foo
-
 Edward Muller is a software engineer/manager living in the suburbs of Portland, OR and goes by the name `freeformz` online. When he isn't working he can be found cooking, playing with his kids, woodworking, walking his dog, BBQing, motorcycling, or [helping out some bunnies](http://rabbitadvocates.org).
 
 # Contact
