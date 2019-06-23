@@ -13,7 +13,7 @@ action "Master" {
 }
 
 action "Hugo" {
-  uses = "./Dockerfile.build"
+  uses = "./Dockerfile"
   runs = ["sh", "-c", "GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD` hugo --enableGitInfo"]
   needs = ["Master"]
 }
