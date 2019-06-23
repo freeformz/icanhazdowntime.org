@@ -12,9 +12,8 @@ action "Master" {
   args = "branch master"
 }
 
-action "Hugo" {
-  uses = "srt32/hugo-action@master"
-  needs = ["Master"]
+action "Build" {
+  uses = "./Dockerfile.build"
   runs = ["sh", "-c", "GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD` hugo --enableGitInfo"]
 }
 

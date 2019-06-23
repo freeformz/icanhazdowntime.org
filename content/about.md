@@ -1,6 +1,6 @@
 +++
 keywords = ["about"]
-description = ""
+description = "About Edward Muller"
 title = "About"
 date = "2017-03-26T11:13:19-07:00"
 categories = ["about"]
