@@ -16,8 +16,12 @@ DisqusShortname = "icanhazdowntime"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
 
-  #favicon_32 = "/img/favicon-32x32.png"
-  #favicon_16 = "/img/favicon-16x16.png"
+  apple_touch_icon = "/images/apple-touch-icon.png"
+  webmanifest = "/site.webmanifest"
+  safari_pinned_tab = "/images/safari-pinned-tab.svg"
+  safari_pinned_tab_color = "#5bbad5"
+  msapplication_tile_color = "#da532c"
+  theme_color = "#ffffff"
 
   footercontent = ""
   hidecredits = false
