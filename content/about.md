@@ -7,11 +7,11 @@ categories = ["about"]
 comments = false
 +++
 
-Edward is a software engineering manager and programmer living in the suburbs of Portland, OR. He goes by the name `freeformz` online. When he is not prioritizing his teams needs he can be found cooking, playing with his kids, walking his dog, helping out some bunnies, or programming.
+Edward Muller is a software engineer/manager living in the suburbs of Portland, OR and goes by the name `freeformz` online. When he isn't working he can be found cooking, playing with his kids, woodworking, walking his dog, BBQing, motorcycling, or [helping out some bunnies](http://rabbitadvocates.org).
 
 # Contact
 
-* [Email](mailto:edwardam@interlix.com)
+* [Email](mailto:freeformz@gmail.com)
 * [Twitter](https://twitter.com/freeformz)
 * [Instagram](https://www.instagram.com/freeformz/)
 
@@ -26,14 +26,25 @@ Edward is a software engineering manager and programmer living in the suburbs of
 
 # Community
 
-* [PDX Go](https://www.meetup.com/PDX-Go/) occasional helper.
 * [Go Bridge](https://golangbridge.org/) member.
 * [Gopher Slack](https://invite.slack.golangbridge.org/) lurker.
+* [PDX Go](https://www.meetup.com/PDX-Go/) occasional helper.
 * [Rabbit Advocates](http://www.rabbitadvocates.org/) Foster.
 
-# Speaker Bio
+# Speaking
 
-Edward Muller is the software engineering manager of [Salesforce's Heroku](https://heroku.com) Operational Experience Team. The Heroku OpEx team is responsible for collecting, aggregating, acting on, and surfacing application metrics to Heroku's customers. Before realizing that he wanted to work with people more than code he worked as an engineer on databases, infrastructure, metrics and logs before becoming the Go language owner.
+## Speaker Bio
+
+Edward is a site reliability engineer at [Salesforce's Heroku](https://heroku.com), where he works on things like SLIs, SLOs, error budgets, & observability systems. Ed has worked on or with everything from Novel Netware LANs to the latest cloud technologies. When he isn't at work Ed loves coding in Go, BBQing, cooking, riding motorcycles, hanging out with friends/family, helping out in various communities, and walking his dog.
+
+## 2019
+
+* [Velocity Conf, San Jose](https://conferences.oreilly.com/velocity/vl-ca/public/content/about#chairs) selection committee member and [Production Engineering, SRE, & DevOps](https://conferences.oreilly.com/velocity/vl-ca/public/schedule/topic/2927) track host.
+* [GopherCon 2019](https://www.gophercon.com) Go Observability Workshop.
+
+## 2018
+
+* [Velocity Conf, San Jose](https://www.oreilly.com/library/view/velocity-conference-/9781492026051/) selection committee member.
 
 ## 2017
 
