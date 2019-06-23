@@ -13,9 +13,9 @@ action "Master" {
 }
 
 action "Hugo" {
-  uses = "./Dockerfile"
-  runs = ["sh", "-c", "GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD` hugo --enableGitInfo"]
+  uses = "freeformz/hugo-action@master"
   needs = ["Master"]
+  args = "--enableGitInfo"
 }
 
 action "GitHub Action for AWS" {
