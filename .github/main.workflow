@@ -22,4 +22,5 @@ action "GitHub Action for AWS" {
   uses = "actions/aws/cli@master"
   needs = ["Hugo"]
   secrets = ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]
+  args = "s3 sync --delete ./public s3://icanhazdowntime.org"
 }
