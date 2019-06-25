@@ -32,3 +32,4 @@ action "Kick Cloudfront" {
   secrets = ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]
   args = "cloudfront create-invalidation --distribution-id E35FES56E55UWE --paths '/*'"
 }
+
