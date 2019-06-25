@@ -1,4 +1,4 @@
-BaseUrl = "http://icanhazdowntime.org/"
+BaseUrl = "https://icanhazdowntime.org/"
 title = "Edward Muller"
 theme = "hugo-coder"
 languagecode = "en"
