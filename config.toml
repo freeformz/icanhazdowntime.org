@@ -62,12 +62,12 @@ DisqusShortname = "icanhazdowntime"
 [[menu.main]]
     name = "Blog"
     weight = 1
-    url  = "/posts/"
+    url  = "/posts/index.html"
 [[menu.main]]
     name = "Restaurants"
     weight = 2
-    url = "/restaurants/"
+    url = "/restaurants/index.html"
 [[menu.main]]
     name = "About"
     weight = 3
-    url = "/about/"
+    url = "/about/index.html"
