@@ -131,6 +131,7 @@ This was formerly my [Places to Eat](https://gist.github.com/freeformz/748b46275
 * [Red Sauce](https://www.redsaucepizza.com) : Really good pizza
 * [A Pizza Scholls](http://apizzascholls.com/) : Some of the best pizza in Portland (Conneticut style)
 * [Life of Pie](http://lifeofpiepizza.com/) : Neapolitan style pizza
+* [The Star Portland](https://www.thestarportland.com) : Cornmeal deep dish. PDX location of SF's [Little Star](https://www.littlestarpizza.com) / [Blueline](https://bluelinepizza.com)
 * [Heart Pizza](https://heartpizza.com/) : Brought to you by founder of Blue Star Donuts.
 * [Ken's Artisan Pizza](http://kensartisan.com/) : Solid brick oven pizza
 * [Dove Vivi](http://www.dovevivipizza.com/) : Pizza with a cornmeal crust
@@ -138,7 +139,8 @@ This was formerly my [Places to Eat](https://gist.github.com/freeformz/748b46275
 * [Sizzle Pie](https://www.sizzlepie.com) : A PDX Classic, vegan options
 
 ## Burgers
-* [Little Big Burger]()http://www.littlebigburger.com : Small, but good hamburgers; truffle fries; various locations
+* [Little Big Burger](http://www.littlebigburger.com) : Small, but good hamburgers; truffle fries; various locations
+* [Bless Your Heart Burger](https://www.byhpdx.com) : Good burgers
 * [Grain & Gristle](http://www.grainandgristle.com/) : Tavern serving burgers
 * [Killer Burger](https://killerburger.com) : Greasy, but good burgers
 * [Dick’s Kitchen](http://www.dickskitchen.com/) : Paleo / Burgers
@@ -147,6 +149,7 @@ This was formerly my [Places to Eat](https://gist.github.com/freeformz/748b46275
 ## Lunch / Dinner
 * [Ava Genes](http://www.avagenes.com/) : Italian
 * [Toro Bravo](http://www.torobravopdx.com/) : Tapas; parent restaurant to Tasty-n-Alder
+* [Tasty-n-Daughters](https://www.tastyndaughters.com) : Like Tasty-n-Alder, but more "taverny"
 * [Ox](http://oxpdx.com/) : Argentinian Steak House
 * [Beast](http://www.beastpdx.com/) : Fancy, six course, prix-fixe menu
 * [Teoto](http://www.teotepdx.com/) : Arepas / Venezuelan 
