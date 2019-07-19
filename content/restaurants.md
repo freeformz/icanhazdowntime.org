@@ -150,6 +150,8 @@ This was formerly my [Places to Eat](https://gist.github.com/freeformz/748b46275
 * [Ava Genes](http://www.avagenes.com/) : Italian
 * [Toro Bravo](http://www.torobravopdx.com/) : Tapas; parent restaurant to Tasty-n-Alder
 * [Tasty-n-Daughters](https://www.tastyndaughters.com) : Like Tasty-n-Alder, but more "taverny"
+* [Din Tai Fung](https://dintaifungusa.com) : Taiwan style dumplings
+* [XLB](https://www.xlbpdx.com) : Chinese comfort food, specializing in it's namesake, xiao long bao
 * [Ox](http://oxpdx.com/) : Argentinian Steak House
 * [Beast](http://www.beastpdx.com/) : Fancy, six course, prix-fixe menu
 * [Teoto](http://www.teotepdx.com/) : Arepas / Venezuelan 
