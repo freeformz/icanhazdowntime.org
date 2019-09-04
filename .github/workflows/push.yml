@@ -1,0 +1,31 @@
+on: push
+name: Deploy
+jobs:
+  master:
+    name: Master
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Master
+      uses: actions/bin/filter@master
+      with:
+        args: branch master
+    - name: Hugo
+      uses: freeformz/hugo-action@master
+      with:
+        args: --enableGitInfo
+    - name: S3 sync
+      uses: actions/aws/cli@master
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      with:
+        args: s3 sync --delete ./public s3://icanhazdowntime.org
+    - name: Kick Cloudfront
+      uses: actions/aws/cli@master
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      with:
+        args: cloudfront create-invalidation --distribution-id E35FES56E55UWE --paths
+          '/*'
