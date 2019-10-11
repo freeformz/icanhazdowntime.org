@@ -109,6 +109,7 @@ This was formerly my [Places to Eat](https://gist.github.com/freeformz/748b46275
 * [Off the Waffle](http://offthewaffle.com/) : Waffles
 * [Screen Door](http://screendoorrestaurant.com/) : Southern; Get the Fried Chicken; also does dinner
 * [Pop Bagel](http://www.popbagel.co) : Portland style pretzel bagel
+* [Twisted Croissant](https://www.twistedcroissant.com) : Best Croissants in PDX
 * [Nuvrei](http://www.nuvrei.com) : My favorite french pâtisserie in PDX
 * [Bernstein's Bagels](https://bernsteinsbagels.com) : Good bagels
 * [Spielman Bagels & Coffee](https://www.spielmanbagels.com) : Good bagels
