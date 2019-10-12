@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2019-10-11T18:39:35-07:00
 title = "Go's Built In Version Manager"
 slug = "" 
