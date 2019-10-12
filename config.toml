@@ -8,6 +8,7 @@ paginate = 25
 canonifyurls = true
 
 DisqusShortname = "icanhazdowntime"
+googleAnalytics = "UA-66343817-1"
 
 [params]
   author = "Edward Muller (aka @freeformz)"
