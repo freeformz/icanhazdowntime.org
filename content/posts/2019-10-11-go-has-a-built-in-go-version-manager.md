@@ -1,10 +1,10 @@
 +++ 
 draft = false
 date = 2019-10-11T18:39:35-07:00
-title = "Go's Built In Version Manager"
+title = "Go's Built In Go Version Manager"
 tags = ["go", "go tools", "tutorial", "programming", "shell"]
 +++
-Go has a **built in** version manager. Well, almost.
+Go has a **built in** Go version manager. Well, almost.
 
 **TL;DR: Any version of go you want can be installed with:**
 {{< highlight shell >}}
