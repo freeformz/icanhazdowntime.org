@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 name: Deploy
 jobs:
   master:
@@ -6,10 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Master
-      uses: actions/bin/filter@master
-      with:
-        args: branch master
     - name: Hugo
       uses: freeformz/hugo-action@master
       with:
