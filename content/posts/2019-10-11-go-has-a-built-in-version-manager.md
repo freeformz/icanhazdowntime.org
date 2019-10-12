@@ -2,6 +2,7 @@
 draft = false
 date = 2019-10-11T18:39:35-07:00
 title = "Go's Built In Version Manager"
+tags = ["go", "go tools", "tutorial", "programming", "shell"]
 slug = "" 
 +++
 Go has a **built in** version manager. Well, almost.
