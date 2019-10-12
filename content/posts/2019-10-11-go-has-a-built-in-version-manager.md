@@ -4,12 +4,16 @@ date = 2019-10-11T18:39:35-07:00
 title = "Go's Built In Version Manager"
 slug = "" 
 +++
+Go has a **built in** version manager. Well, almost.
 
-Go has a built in version manager. Well, almost.
+**TL;DR: Any version of go you want can be installed with:**
+{{< highlight shell >}}
+$ go get golang.org/dl/<go version string>
+{{< / highlight >}}
 
 If you have a working go install run the following:
 
-```console
+{{< highlight shell >}}
 $ go get golang.org/dl/go1.12.7
 $ go1.12.7
 go1.12.7: not downloaded. Run 'go1.12.7 download' to install to /Users/freeformz/sdk/go1.12.7
@@ -29,14 +33,14 @@ GOROOT="/Users/freeformz/sdk/go1.12.7"
 GOTMPDIR=""
 GOTOOLDIR="/Users/freeformz/sdk/go1.12.7/pkg/tool/darwin_amd64"
 ...
-```
+{{< / highlight >}}
 
-Basically, any version of go you want can be installed via `go get`.
-Versions installed this way are placed in `$HOME/sdk` and an executable named the same as the full go version string (`go1.13.1`) is placed in `$(go env GOPATH)/bin`. As long as that is in your path you can run any of the installed versions of go by using the full go version.
 
-But you often want to "select" a specific version to use for the `go` command. All you need is a small shell function to accomplish that:
+Versions installed this way are placed in `$HOME/sdk` and an executable named the same as the full go version string is placed in `$GOPATH/bin`. As long as that is in your `$PATH`, you can run any of the installed versions of go by using the full go version.
 
-```sh
+You often want to "select" a specific version of go however. To accomplish this, all you need is a small shell function:
+
+{{< highlight shell >}}
 setGoVersion() {
   local ver="${1}"
   local gbd="$HOME/sdk/${ver}/bin"
@@ -47,9 +51,13 @@ setGoVersion() {
     echo "${ver} not found, install with \"go get golang.org/dl/${ver}; ${ver} download\""
   fi
 }
-```
+{{< / highlight >}}
 
-```console
+The `setGoVersion` shell function modifies your `$PATH` to include the directory of one of the downloaded go versions in `$HOME/sdk`. If that version isn't downloaded, then it tells you how to go about getting it.
+
+Example:
+
+{{< highlight shell >}}
 $ setGoVersion go1.13.1
 $ go version
 go version go1.13.1 darwin/amd64
@@ -67,12 +75,12 @@ Success. You may now run 'go1.9.1'
 $ setGoVersion go1.9.1
 $ go version
 go version go1.9.1 darwin/amd64
-```
+{{< / highlight >}}
 
-To cleanup any old versions you don't want hanging around anymore, `rm -rf` them from `$HOME/sdk`.
+To cleanup any old versions you don't want hanging around anymore simply `rm -rf` them from `$HOME/sdk`.
 
-```console
+{{< highlight shell >}}
 $ rm -rf $HOME/sdk/go1.9.1
 $ go1.9.1        # Still in $(go env GOPATH)/bin
 go1.9.1: not downloaded. Run 'go1.9.1 download' to install to /Users/freeformz/sdk/go1.9.1
-```
+{{< / highlight >}}

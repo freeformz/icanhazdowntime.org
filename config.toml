@@ -32,7 +32,7 @@ DisqusShortname = "icanhazdowntime"
   rtl = false
   math = true
 
-  #custom_css = ["css/custom.css"]
+  custom_css = ["css/syntax.css"]
 
   maxSeeAlsoItems = 5
 
