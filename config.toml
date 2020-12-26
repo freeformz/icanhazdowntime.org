@@ -40,22 +40,22 @@ googleAnalytics = "UA-66343817-1"
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/freeformz/"
 [[params.social]]
     name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
+    icon = "fa fa-gitlab fa-2x"
     weight = 2
     url = "https://gitlab.com/freeformz/"
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    icon = "fa fa-twitter fa-2x"
     weight = 3
     url = "https://twitter.com/freeformz/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/freeformz/"
 
@@ -64,6 +64,10 @@ googleAnalytics = "UA-66343817-1"
     name = "Blog"
     weight = 1
     url  = "/posts/index.html"
+[[menu.main]]
+    name = "3DModels"
+    weight = 2
+    url = "/3dmodels/index.html"
 [[menu.main]]
     name = "Restaurants"
     weight = 2
