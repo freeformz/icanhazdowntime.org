@@ -1,6 +1,5 @@
 BaseUrl = "https://icanhazdowntime.org/"
 title = "Edward Muller"
-theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -9,6 +8,10 @@ canonifyurls = true
 
 DisqusShortname = "icanhazdowntime"
 googleAnalytics = "UA-66343817-1"
+
+[module]
+  [[module.imports]]
+    path = "github.com/freeformz/hugo-coder"
 
 [params]
   author = "Edward Muller (aka @freeformz)"
