@@ -78,6 +78,7 @@ draft: false
 * [Sammich](https://www.sammichrestaurants.com) : Sandwiches (affiliated with Pastrami Zombie food cart)
 * [Marukin Ramen](http://www.marukinramen.com/) : Good Ramen
 * [Xico](https://www.xicopdx.com) : Mexican
+* [Toki](https://tokipdx.square.site) : Korean / Korean Fried Chicken
 
 ### Bar / Drinks
 
