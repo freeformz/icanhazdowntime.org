@@ -34,7 +34,9 @@ Edward Muller is a software manager & engineer living in the suburbs of Portland
 
 ## Elsewhere
 
-* [Fastly Compute@Edge Log Tailing](https://www.fastly.com/blog/introducing-compute-edge-log-tailing-for-better-observability-and-easier-debugging)
+* 2021/02/08 - Fastly Compute@Edge [Log Tailing Blog Post](https://www.fastly.com/blog/introducing-compute-edge-log-tailing-for-better-observability-and-easier-debugging)
+* 2019/12/03 - Heroku Codish Podcast [#46: Go @ Heroku](https://www.heroku.com/podcasts/codeish/46-go-at-heroku)
+* 2016/08/01 - Go Time FM Podcast [#10: State of Go Survey / Go @ Heroku Postcast](https://changelog.com/gotime/10)
 
 ## Speaking
 
