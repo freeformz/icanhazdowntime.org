@@ -20,6 +20,8 @@ googleAnalytics = "UA-66343817-1"
   description = "Edward's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
+  FBAPPID = ""
+  FBCLIENTTOKEN = ""
 
   apple_touch_icon = "/images/apple-touch-icon.png"
   webmanifest = "/site.webmanifest"

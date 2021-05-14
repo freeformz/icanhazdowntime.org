@@ -9,6 +9,8 @@ Total Time: ~28 hours
 
 Working Time: ~30m
 
+{{< instagram CO3dW2pJbi0 >}}
+
 ## Ingredients
 
 * 400g of [T80 flour](https://centralmilling.com/product/organic-type-80-wheat-flour/)

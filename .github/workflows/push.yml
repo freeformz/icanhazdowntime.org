@@ -11,6 +11,9 @@ jobs:
     - uses: actions/checkout@master
     - name: Hugo
       uses: freeformz/hugo-action@master
+      env:
+        HUGO_PARAMS_FBAPPID: ${{ secrets.HUGO_PARAMS_FBAPPID }}
+        HUGO_PARAMS_FBCLIENTTOKEN: ${{ secrets.HUGO_PARAMS_FBCLIENTTOKEN }}
       with:
         args: --enableGitInfo
     - name: S3 sync
