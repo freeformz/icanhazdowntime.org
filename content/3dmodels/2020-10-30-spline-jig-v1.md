@@ -3,7 +3,7 @@ draft = false
 date = 2020-10-30T08:35:36-07:00
 title = "Spline Jig V1"
 categories = ["3dmodel"]
-tags = ["cncrouter", "plywood", "jig", "woodworking"]
+tags = ["3dmodel", "cncrouter", "plywood", "jig", "woodworking"]
 +++
 
 Spline jig designed to slide on the Sawstop T-glide fence
