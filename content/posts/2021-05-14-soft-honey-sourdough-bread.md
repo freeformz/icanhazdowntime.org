@@ -6,6 +6,7 @@ tags = ["cooking", "baking", "bread", "sourdough"]
 +++
 
 Total Time: ~28 hours
+
 Working Time: ~30m
 
 ## Ingredients
