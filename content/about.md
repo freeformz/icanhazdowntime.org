@@ -59,7 +59,7 @@ Edward is a site reliability engineer at [Salesforce's Heroku](https://heroku.co
 
 ### 2016
 
-* [GopherCon 2016](https://www.youtube.com/watch?v=VjnVjGRUDro)
+* [GopherCon 2016 Lightning Talk](https://www.youtube.com/watch?v=VjnVjGRUDro) - Presenting data from my [2015 State of Go Survey](https://github.com/freeformz/StateOfGo2015)
 * [Go Time FM #10](https://changelog.com/gotime/10)
 
 ### 2013
