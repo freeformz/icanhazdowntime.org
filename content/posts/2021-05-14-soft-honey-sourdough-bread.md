@@ -9,7 +9,7 @@ Total Time: ~28 hours
 
 Working Time: ~30m
 
-{{< instagram CO3dW2pJbi0 >}}
+![Instagram Image](https://www.instagram.com/p/CO3dW2pJbi0/embed/)
 
 ## Ingredients
 

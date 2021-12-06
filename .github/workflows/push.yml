@@ -8,25 +8,25 @@ jobs:
     name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Hugo
-      uses: freeformz/hugo-action@master
-      env:
-        HUGO_PARAMS_FBAPPID: ${{ secrets.HUGO_PARAMS_FBAPPID }}
-        HUGO_PARAMS_FBCLIENTTOKEN: ${{ secrets.HUGO_PARAMS_FBCLIENTTOKEN }}
-      with:
-        args: --enableGitInfo
-    - name: S3 sync
-      uses: docker://amazon/aws-cli:2.0.7
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      with:
-        args: s3 sync --delete ./public s3://icanhazdowntime.org
-    - name: Kick Cloudfront
-      uses: docker://amazon/aws-cli:2.0.7
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      with:
-        args: cloudfront create-invalidation --distribution-id ${{ secrets.CloudFrontDistributionID }} --paths /*
+      - uses: actions/checkout@master
+      - name: Hugo
+        uses: freeformz/hugo-action@master
+        env:
+          HUGO_PARAMS_FBAPPID: ${{ secrets.HUGO_PARAMS_FBAPPID }}
+          HUGO_PARAMS_FBCLIENTTOKEN: ${{ secrets.HUGO_PARAMS_FBCLIENTTOKEN }}
+        with:
+          args: --enableGitInfo
+      - name: S3 sync
+        uses: docker://amazon/aws-cli:2.0.7
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        with:
+          args: s3 sync --delete ./public s3://icanhazdowntime.org
+      - name: Kick Cloudfront
+        uses: docker://amazon/aws-cli:2.0.7
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        with:
+          args: cloudfront create-invalidation --distribution-id ${{ secrets.CloudFrontDistributionID }} --paths /*
