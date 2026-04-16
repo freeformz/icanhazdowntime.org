@@ -1,4 +1,3 @@
 [tools]
-hugo = "latest"
-"aqua:sass/dart-sass" = "latest"
+hugo-extended = "latest"
 lychee = "latest"
