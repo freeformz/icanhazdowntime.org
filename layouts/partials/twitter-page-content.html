@@ -1,7 +1,7 @@
 {{/* Shared content for twitter archive pages — receives the page context */}}
 {{ $currentPage := .Params.twitter_page | int }}
-{{ $totalPages := .Params.twitter_total_pages | int }}
 {{ $meta := site.Data.twitter_archive.meta }}
+{{ $totalPages := $meta.total_pages | int }}
 {{ $pageKey := printf "page_%d" $currentPage }}
 {{ $pageTweets := index site.Data.twitter_archive $pageKey }}
 

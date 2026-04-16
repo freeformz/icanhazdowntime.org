@@ -5,3 +5,6 @@ resources/
 .hugo_build.lock
 logs/
 static/pagefind/
+data/twitter_archive/
+content/twitter-archive/page-*.md
+static/twitter-archive/media/

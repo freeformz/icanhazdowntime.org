@@ -110,6 +110,7 @@ fs.writeFileSync(
     total_tweets: filtered.length,
     total_retweets: filtered.filter((t) => t.is_retweet).length,
     total_originals: filtered.filter((t) => !t.is_retweet).length,
+    total_pages: Math.ceil(filtered.length / PAGE_SIZE),
     earliest: filtered[filtered.length - 1].timestamp,
     latest: filtered[0].timestamp,
   })
@@ -140,18 +141,7 @@ for (const f of existing) {
   }
 }
 
-// Write _index.md (page 1)
-fs.writeFileSync(
-  path.join(OUTPUT_CONTENT, "_index.md"),
-  `---
-title: "Twitter Archive"
-description: "Archive of tweets from @freeformz (2007–2022)"
-layout: "twitter-archive"
-twitter_page: 1
-twitter_total_pages: ${totalPages}
----
-`
-);
+// Don't touch _index.md — it's hand-authored and committed
 
 // Write page-N.md for pages 2+
 for (let i = 1; i < totalPages; i++) {
@@ -164,7 +154,6 @@ description: "Archive of tweets from @freeformz (2007–2022) — Page ${pageNum
 layout: "twitter-archive-page"
 url: "/twitter-archive/page/${pageNum}/"
 twitter_page: ${pageNum}
-twitter_total_pages: ${totalPages}
 ---
 `
   );

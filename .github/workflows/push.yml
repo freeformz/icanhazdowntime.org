@@ -24,9 +24,7 @@ jobs:
           extended: true
 
       - name: Install Dart Sass
-        run: |
-          curl -sL "https://github.com/sass/dart-sass/releases/latest/download/dart-sass-1.99.0-linux-x64.tar.gz" | tar xz
-          echo "$PWD/dart-sass" >> $GITHUB_PATH
+        run: npm install -g sass
 
       - name: Process Twitter Archive
         run: node scripts/process-twitter-archive.js
