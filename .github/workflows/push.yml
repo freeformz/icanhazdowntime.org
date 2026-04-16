@@ -25,7 +25,7 @@ jobs:
           HUGO_PARAMS_FBCLIENTTOKEN: ${{ secrets.HUGO_PARAMS_FBCLIENTTOKEN }}
 
       - name: S3 sync
-        uses: docker://amazon/aws-cli:2.0.7
+        uses: docker://amazon/aws-cli:2.34.30
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -33,7 +33,7 @@ jobs:
           args: s3 sync --delete ./public s3://icanhazdowntime.org
 
       - name: Kick Cloudfront
-        uses: docker://amazon/aws-cli:2.0.7
+        uses: docker://amazon/aws-cli:2.34.30
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
