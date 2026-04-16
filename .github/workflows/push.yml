@@ -23,12 +23,6 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Install Dart Sass
-        run: |
-          DART_SASS_VERSION=$(curl -s https://api.github.com/repos/sass/dart-sass/releases/latest | grep '"tag_name"' | sed 's/.*"tag_name": "\(.*\)".*/\1/')
-          curl -sL "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" | tar xz
-          echo "$PWD/dart-sass" >> $GITHUB_PATH
-
       - name: Process Twitter Archive
         run: node scripts/process-twitter-archive.js
 
