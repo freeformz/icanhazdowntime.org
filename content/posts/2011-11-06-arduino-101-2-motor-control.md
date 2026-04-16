@@ -1,7 +1,6 @@
 ---
 date: 2011-11-06
 title: Arduino 101 #2 - Motor Control
-published: true
 ---
 
 <p>I wanted to play around with controling something throught the Arduino.</p>

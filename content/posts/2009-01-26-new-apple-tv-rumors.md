@@ -2,7 +2,6 @@
 layout: post
 date: 2009-01-26
 title: New Apple TV rumors?
-published: true
 ---
 As seen <a href="http://www.tgdaily.com/content/view/41151/128/">here</a>.
 

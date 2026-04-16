@@ -1,7 +1,6 @@
 +++
 date = "2015-08-18T10:11:50-07:00"
 title = "Deploying Go Apps to Heroku with Docker"
-published = true
 keywords = ["go", "heroku", "docker"]
 categories = ["go", "heroku", "docker"]
 tags = ["go", "heroku", "docker"]

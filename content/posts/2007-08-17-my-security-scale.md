@@ -2,7 +2,6 @@
 layout: post
 date: 2007-08-17
 title: My Security Scale
-published: true
 ---
 I've been doing a bunch of work on some systems for The U.S. House of Representatives and their security measures are a pretty stringent. So I finally wanted to write down my security scale.
 

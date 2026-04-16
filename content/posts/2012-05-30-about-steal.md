@@ -1,7 +1,6 @@
 +++
 date = "2012-05-30"
 title = "About Steal"
-published = true
 categories = ["linux"]
 keywords = ["linux","steal"]
 tags = ["linux"]

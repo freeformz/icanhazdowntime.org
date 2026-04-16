@@ -2,7 +2,6 @@
 layout: post
 date: 2009-08-23
 title: iplay4e + My D&amp;D 4e Characters
-published: true
 ---
 If you play D&amp;D with a computer or iPhone and haven't found out about <a href="http://http://iplay4e.appspot.com/">iplay4e</a>, go there now. It's a great "little" Google App Engine app that helps your run your character.
 

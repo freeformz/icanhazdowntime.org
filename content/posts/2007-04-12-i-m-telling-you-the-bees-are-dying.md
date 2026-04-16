@@ -2,7 +2,6 @@
 layout: post
 date: 2007-04-12
 title: I'm telling you the Bees are dying!
-published: true
 ---
 
 Albert Einstein speculated that "If the bee disappeared off the surface of the globe,  									then man would only have four years of life left."

@@ -2,7 +2,6 @@
 layout: post
 date: 2007-02-22
 title: The Zen of Python
-published: true
 ---
 <div class="CodeRay">
   <div class="code"><pre>Beautiful is better than ugly.

@@ -1,7 +1,6 @@
 +++
 date = "2012-05-21"
 title = "Some Rick Hickley talks to watch"
-published = true
 tags = ["qotd", "talks"]
 categories = ["qotd", "talks"]
 +++

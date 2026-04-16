@@ -1,7 +1,6 @@
 +++
 date = "2015-10-14T15:05:14-07:00"
 title = "Type, *Type, Receivers & Interfaces"
-published=true
 categories = ["go"]
 keywords = ["go"]
 tags = ["go"]

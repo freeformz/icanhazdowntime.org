@@ -1,7 +1,6 @@
 ---
 layout: post
 title: VMWare Collectd Client SDK Plugin
-published: true
 date: 2010-11-23
 ---
 <p>Going to see about what I need to do to merge it upstream</p>

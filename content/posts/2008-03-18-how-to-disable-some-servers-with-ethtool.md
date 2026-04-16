@@ -2,7 +2,6 @@
 layout: post
 date: 2008-03-18
 title: How to disable some servers with ethtool
-published: true
 ---
 for n in 05 06 07 08 09 10 11 12 13 14 15 16; do echo $n; ssh ey01-$n ethtool -p aoe0; done
 

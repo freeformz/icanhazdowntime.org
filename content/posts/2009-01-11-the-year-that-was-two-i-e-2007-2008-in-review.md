@@ -2,7 +2,6 @@
 layout: post
 date: 2009-01-11
 title: The Year That Was Two (i.e. 2007/2008 in review)
-published: true
 ---
 So, for me last year was really 2008 &amp; 2007. I never really took the time to slow down at the end of 2007 and reflect on the year. I just ended up rolling right into 2008.
 

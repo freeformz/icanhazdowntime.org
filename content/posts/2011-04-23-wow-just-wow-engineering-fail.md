@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Wow. Just Wow. "Engineering" Fail.
-published: true
 date: 2011-04-23
 ---
 I want to prefix what I'm about to write with 2 statements:

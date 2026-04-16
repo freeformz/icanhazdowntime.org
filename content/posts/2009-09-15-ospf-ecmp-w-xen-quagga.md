@@ -2,7 +2,7 @@
 layout: post
 date: 2009-09-15
 title: OSPF/ECMP w/xen & quagga
-published: false
+draft: true
 ---
 <p><span style="font-size: large;">Motivation</span> Using a LAG group for redundancy across 2 switches in a stack couples those switches together. Once 2 switches are stacked, the entire stack needs to be upgraded <span style="font-size: small;">at o</span>nce, which generally means you'll be rebooting both switches at the same time. This is bad for connectivity. So what do you do if you want a highly redundant network setup that isn't tied to a single switch stack, but don't want to spend the big bucks for 'chassis' switches?  <span style="font-size: large;">HSRP/VRRP?</span> Well, yeah, you could do that. But you'll only be using one of the 2 switches at any one time. I want my cake and to be able to eat it at the same time. Oh and IMO HSRP/VRRP is kind of nasty.  <span style="font-size: large;">OSPF/ECMP?</span> Instead we can use <a href="http://en.wikipedia.org/wiki/OSPF">OSPF</a>, an IGP for distributing and determining routes. And <a href="http://en.wikipedia.org/wiki/Equal-cost_multi-path_routing">ECMP</a> to utilize routes of equal cost.  <span style="font-size: large;">What do I need?</span></p>
 <ul>

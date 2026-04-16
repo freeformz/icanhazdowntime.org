@@ -2,7 +2,6 @@
 layout: post
 date: 2009-01-27
 title: Enabling our president w/technology
-published: true
 ---
 I read <a href="http://www.reuters.com/article/technologyNews/idUKTRE50Q2YS20090127">this article</a> this morning. It occured to me that there are various OSS projects out there that can take down or overcome most of these roadblocks.
 

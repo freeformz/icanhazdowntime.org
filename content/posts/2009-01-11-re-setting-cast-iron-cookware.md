@@ -2,7 +2,6 @@
 layout: post
 date: 2009-01-11
 title: Re-setting Cast Iron Cookware
-published: true
 ---
 My cast iron frying pan (and dutch oven) were in dire need of a good scour (to remove some rust) and a re-seasoning. They haven't been treated as nicely as I would have wanted to treat them recently, and was not taken care of during our move to CA. So I wanted to strip off as much of the current seasoning that was already there and basically, start from scratch.
 

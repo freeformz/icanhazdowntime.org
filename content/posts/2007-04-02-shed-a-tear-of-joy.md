@@ -2,7 +2,6 @@
 layout: post
 date: 2007-04-22
 title: Shed a Tear ... of Joy
-published: true
 ---
 A little excerpt from the EMI/Apple Announcement today:
 

@@ -2,7 +2,6 @@
 layout: post
 date: 2008-01-23
 title: I work at Engine Yard Inc.
-published: true
 ---
 There. I said it. :-) It's out there for the world to know.
 

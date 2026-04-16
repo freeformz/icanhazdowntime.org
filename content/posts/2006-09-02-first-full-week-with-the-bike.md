@@ -2,7 +2,6 @@
 layout: post
 title: First full week with the bike.
 date: 2006-09-02
-published: true
 ---
 So I completed the first full week with my bike. I drove it about 300 miles total. I like the bike, but I really do want something a little newer. My main reasons being:
 <ol>

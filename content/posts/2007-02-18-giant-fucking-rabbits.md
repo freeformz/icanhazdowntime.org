@@ -2,7 +2,6 @@
 layout: post
 date: 2007-02-18
 title: Giant Fucking Rabbits
-published: true
 ---
 <a href="http://www.foxnews.com/story/0,2933,243221,00.html">North Korea to get giant rabbits to boost meat production</a>.
 

@@ -2,7 +2,6 @@
 layout: post
 date: 2008-06-02
 title: RailsConf
-published: true
 ---
 This was my first RailsConf. I figured it would be bigger for some reason. In retrospect I'm not sure why I originally thought that. It was bigger than the last conference I went to, which was PyCon 2007.
 

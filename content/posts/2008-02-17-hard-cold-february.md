@@ -2,7 +2,6 @@
 layout: post
 date: 2008-02-17
 title: Hard, Cold February
-published: true
 ---
 This February has been pretty hard on me.
 

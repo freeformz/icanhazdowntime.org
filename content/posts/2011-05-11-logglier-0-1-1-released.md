@@ -2,7 +2,6 @@
 layout: post
 title: Logglier 0.1.1 released
 date: 2011-05-11
-published: true
 ---
 Issues:
 

@@ -2,7 +2,6 @@
 layout: post
 date: 2008-01-03
 title: Youtube's Architecture
-published: true
 ---
 Check out <a href="http://highscalability.com/youtube-architecture">this information</a> about Youtube's architecture. It's not super interesting, but I like the "Lessons Learned" part.
 

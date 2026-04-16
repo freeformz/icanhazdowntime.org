@@ -2,7 +2,6 @@
 layout: post
 date: 2007-08-04
 title: The week in review
-published: true
 ---
 <ul>
 	<li>I got's myself an iPhone. It's not all it's hyped up to be, but it works better than any phone I've ever used. Plus it's a pretty nice iPod. And it's very, very usable for email, unlike my last phone (Palm Treo 650).</li>

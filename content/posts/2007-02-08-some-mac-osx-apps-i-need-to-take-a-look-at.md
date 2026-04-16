@@ -2,7 +2,6 @@
 layout: post
 date: 2007-02-08
 title: Some Mac OSX apps I need to take a look at.
-published: true
 ---
 <a href="http://sourceforge.net/projects/cotvnc/http://homepage.mac.com/philrobin/conversation/">http://sourceforge.net/projects/cotvnc/http://homepage.mac.com/philrobin/conv...</a>
 

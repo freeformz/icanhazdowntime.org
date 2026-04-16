@@ -1,6 +1,5 @@
 +++
 title = "Big Chef Tom From Next Food Network Star is at Heroku serving lunch"
-published = true
 date = "2012-04-23"
 tags = ["heroku","food"]
 categories = ["heroku","food"]

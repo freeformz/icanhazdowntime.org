@@ -2,7 +2,6 @@
 layout: post
 date: 2009-01-23
 title: Why startups don't make money anymore?
-published: true
 ---
 Got it all wrong ...
 

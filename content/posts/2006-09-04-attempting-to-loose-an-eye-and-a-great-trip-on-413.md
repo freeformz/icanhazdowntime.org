@@ -2,7 +2,6 @@
 layout: post
 title: Attempting to Loose an Eye and a Great Trip on 413
 date: 2006-09-04
-published: true
 ---
 Today started out with a nice ride to the gym. The weather was nice and cool, there were very few cars on the road, etc. Because I was going to the gym I needed to take my gym bag with me. Because I was on the motorcyle I needed to bungie cord said gym bag to the back of the bike.
 

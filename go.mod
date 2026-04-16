@@ -2,4 +2,4 @@ module github.com/freeformz/icanhazdowntime.org
 
 go 1.16
 
-require github.com/luizdepra/hugo-coder v0.0.0-20210510132739-9920a722b08f // indirect
+require github.com/luizdepra/hugo-coder v0.0.0-20260305123245-3d3bbd75d7bb // indirect

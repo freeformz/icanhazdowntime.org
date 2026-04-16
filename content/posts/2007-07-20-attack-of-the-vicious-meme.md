@@ -2,7 +2,6 @@
 layout: post
 date: 2007-07-20
 title: Attack of the Vicious Meme
-published: true
 ---
 The Vicious Meme was shot at me by the <a href="http://atomicbaboon.net/entry/107/">Atomic Baboon</a>. It's hard to avoid something when a nuclear powered Baboon shoots it at you. I mean, what are you going to do? Duck? The initial blast alone incinerates everything within a 50 mile radius. Not having a bunker like the Baboon, I was powerless to escape.
 

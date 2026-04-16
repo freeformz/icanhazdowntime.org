@@ -2,7 +2,6 @@
 layout: post
 date: 2008-11-16
 title: My First Erlang Program
-published: true
 ---
 I've been looking for some elementary 'puzzles' to code up in Erlang so I can figure out the language a bit. In passing, I came across Facebook's "<a href="http://www.facebook.com/jobs_puzzles/index.php" title="Programming Puzzles">Programming Puzzles</a>" page.
 

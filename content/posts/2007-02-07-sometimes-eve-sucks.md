@@ -2,7 +2,6 @@
 layout: post
 date: 2007-02-07
 title: Sometimes EVE Sucks
-published: true
 ---
 So I made a skill plan for Berett, one of my EVE characters. I named it "finish some shit up".<strong> </strong>
 

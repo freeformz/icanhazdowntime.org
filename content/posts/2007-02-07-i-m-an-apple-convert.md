@@ -2,7 +2,6 @@
 layout: post
 title: I'm an apple convert!
 date: 2007-02-07
-published: true
 ---
 I've drunk the cool-aid.
 

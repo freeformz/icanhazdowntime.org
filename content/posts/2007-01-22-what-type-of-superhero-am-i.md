@@ -2,7 +2,6 @@
 layout: post
 title: What type of Superhero am I?
 date: 2007-01-22
-published: true
 ---
 I figured I'd take the "test" since at least <a href="http://atomicbaboon.net/entry/33/">one of my friends has</a>.
 

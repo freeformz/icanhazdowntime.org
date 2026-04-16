@@ -2,7 +2,6 @@
 layout: post
 date: 2009-01-12
 title: New role at Engine Yard
-published: true
 ---
 I'm working with a new group at Engine Yard that is responsible for identifying the technological and procedural improvements to Engine Yard's current cluster offerings. The group consists of myself and 3 others (<a href="http://twitter.com/dpiddee">Dan Peterson</a>, <a href="http://twitter.com/outerim">Lee Jensen</a> &amp; <a href="http://twitter.com/themcgruff">Taylor Weibley</a>).
 
