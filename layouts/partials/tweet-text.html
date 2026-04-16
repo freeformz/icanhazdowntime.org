@@ -1,0 +1,57 @@
+{{/* Renders tweet text with linked @mentions, URLs, and hashtags */}}
+{{/* Receives a tweet data map */}}
+{{ $text := .full_text }}
+{{ $entities := .entities }}
+
+{{/* Collect all entities with their indices for replacement */}}
+{{/* We process from end to start so indices remain valid */}}
+{{ $replacements := slice }}
+
+{{ with $entities.user_mentions }}
+  {{ range . }}
+    {{ $r := dict "start" (index .indices 0) "end" (index .indices 1) "html" (printf `<a href="https://twitter.com/%s" class="tweet-mention" rel="nofollow noopener" target="_blank">@%s</a>` .screen_name .screen_name) }}
+    {{ $replacements = $replacements | append $r }}
+  {{ end }}
+{{ end }}
+
+{{ with $entities.urls }}
+  {{ range . }}
+    {{ $display := .display_url | default .expanded_url }}
+    {{ $href := .expanded_url | default .url }}
+    {{ $r := dict "start" (index .indices 0) "end" (index .indices 1) "html" (printf `<a href="%s" class="tweet-link" rel="nofollow noopener" target="_blank">%s</a>` $href $display) }}
+    {{ $replacements = $replacements | append $r }}
+  {{ end }}
+{{ end }}
+
+{{ with $entities.hashtags }}
+  {{ range . }}
+    {{ $r := dict "start" (index .indices 0) "end" (index .indices 1) "html" (printf `<a href="https://twitter.com/hashtag/%s" class="tweet-hashtag" rel="nofollow noopener" target="_blank">#%s</a>` .text .text) }}
+    {{ $replacements = $replacements | append $r }}
+  {{ end }}
+{{ end }}
+
+{{/* Remove media URLs from display text */}}
+{{ with $entities.media }}
+  {{ range . }}
+    {{ $r := dict "start" (index .indices 0) "end" (index .indices 1) "html" "" }}
+    {{ $replacements = $replacements | append $r }}
+  {{ end }}
+{{ end }}
+
+{{/* Sort replacements by start index descending so we can replace from end */}}
+{{ $sorted := sort $replacements "start" "desc" }}
+
+{{/* Convert text to a slice of runes for safe indexing */}}
+{{ $runes := split $text "" }}
+{{ $result := $text }}
+
+{{ range $sorted }}
+  {{ $before := substr $result 0 (int .start) }}
+  {{ $after := substr $result (int .end) }}
+  {{ $result = printf "%s%s%s" $before .html $after }}
+{{ end }}
+
+{{/* Convert newlines to <br> */}}
+{{ $result = $result | replaceRE "\n" "<br>" }}
+
+<p class="tweet-text">{{ $result | safeHTML }}</p>

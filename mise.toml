@@ -1,2 +1,4 @@
 [tools]
 hugo = "latest"
+"aqua:sass/dart-sass" = "latest"
+lychee = "latest"

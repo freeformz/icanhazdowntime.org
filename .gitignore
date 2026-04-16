@@ -2,3 +2,6 @@ public/
 resources/
 .terraform/
 .DS_Store
+.hugo_build.lock
+logs/
+static/pagefind/

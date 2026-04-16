@@ -1,0 +1,66 @@
+{{/* Tweet card partial — receives a tweet data map */}}
+{{ $tweet := . }}
+{{ $isRT := .is_retweet }}
+{{ $tweetId := .id }}
+
+<article id="tweet-{{ $tweetId }}" class="tweet-card{{ if $isRT }} tweet-retweet{{ end }}">
+  {{ $t := time.AsTime .timestamp }}<h6 id="t-{{ $tweetId }}" class="sr-only">Tweet from {{ $t.Format "Jan 2, 2006" }}</h6>
+  <div class="tweet-header">
+    <div class="tweet-avatar">
+      <img src="/images/avatar.jpg" alt="@freeformz" width="48" height="48" loading="lazy" />
+    </div>
+    <div class="tweet-author">
+      <span class="tweet-author-name">Edward Muller</span>
+      <span class="tweet-author-handle">@freeformz</span>
+    </div>
+    {{ if $isRT }}
+    <div class="tweet-rt-badge">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>
+      Retweeted
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="tweet-body">
+    {{ partial "tweet-text.html" $tweet }}
+  </div>
+
+  {{ with .media }}
+  {{ if gt (len .) 0 }}
+  <div class="tweet-media{{ if gt (len .) 1 }} tweet-media-grid tweet-media-{{ len . }}{{ end }}">
+    {{ range . }}
+      {{ if eq .type "video" }}
+      <video controls preload="none" class="tweet-media-item">
+        <source src="/twitter-archive/media/{{ .filename }}" />
+      </video>
+      {{ else }}
+      <img src="/twitter-archive/media/{{ .filename }}" alt="" class="tweet-media-item" loading="lazy" />
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+  <div class="tweet-footer">
+    <time class="tweet-time" datetime="{{ .timestamp }}">
+      {{ $t := time.AsTime .timestamp }}
+      {{ $t.Format "Jan 2, 2006 · 3:04 PM" }}
+    </time>
+    {{ if not $isRT }}
+    <span class="tweet-stats">
+      {{ with .retweet_count }}{{ if gt . 0 }}
+      <span class="tweet-stat">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"></path></svg>
+        {{ . }}
+      </span>
+      {{ end }}{{ end }}
+      {{ with .favorite_count }}{{ if gt . 0 }}
+      <span class="tweet-stat">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M20.884 13.19c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.45-4.92-.334-6.98C3.907 3.85 5.7 2.75 7.84 2.75c1.69 0 3.01.86 3.88 1.87l.28.32.28-.32c.87-1.01 2.19-1.87 3.88-1.87 2.14 0 3.933 1.1 5.063 3.46 1.116 2.06 1.026 4.48-.336 6.98z"></path></svg>
+        {{ . }}
+      </span>
+      {{ end }}{{ end }}
+    </span>
+    {{ end }}
+  </div>
+</article>

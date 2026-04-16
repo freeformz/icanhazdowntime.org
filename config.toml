@@ -39,7 +39,7 @@ googleAnalytics = "UA-66343817-1"
   rtl = false
   math = true
 
-  custom_css = ["css/syntax.css"]
+  customCSS = ["css/syntax.css", "css/twitter-archive.css"]
 
   maxSeeAlsoItems = 5
 
@@ -79,6 +79,14 @@ googleAnalytics = "UA-66343817-1"
     weight = 2
     url = "/restaurants/index.html"
 [[menu.main]]
-    name = "About"
+    name = "Archives"
     weight = 3
+    url = "/archives/"
+[[menu.main]]
+    name = "Search"
+    weight = 4
+    url = "/search/"
+[[menu.main]]
+    name = "About"
+    weight = 5
     url = "/about/index.html"

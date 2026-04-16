@@ -1,0 +1,235 @@
+.twitter-archive .tweet-count {
+  opacity: 0.6;
+  margin-bottom: 2em;
+}
+
+.tweet-list {
+  max-width: 600px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.tweet-card {
+  border: 1px solid currentColor;
+  border-radius: 12px;
+  padding: 0.9em;
+  margin-bottom: 1em;
+  opacity: 1;
+  border-color: rgba(128, 128, 128, 0.3);
+  scroll-margin-top: 1em;
+}
+
+.tweet-card:target,
+.tweet-card:has(.sr-only:target) {
+  border-color: #1d9bf0;
+  box-shadow: 0 0 0 2px rgba(29, 155, 240, 0.3);
+}
+
+.sr-only:target {
+  scroll-margin-top: 1em;
+}
+
+.tweet-retweet {
+  border-left: 3px solid #17bf63;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-bottom: 0.5em;
+}
+
+.tweet-avatar img {
+  border-radius: 50%;
+  display: block;
+}
+
+.tweet-author {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.tweet-author-name {
+  font-weight: 700;
+}
+
+.tweet-author-handle {
+  opacity: 0.6;
+  font-size: 0.85em;
+}
+
+.tweet-rt-badge {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #17bf63;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.tweet-body {
+  margin-bottom: 0.6em;
+}
+
+.tweet-text {
+  line-height: 1.5;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.tweet-mention,
+.tweet-link,
+.tweet-hashtag {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+.tweet-mention:hover,
+.tweet-link:hover,
+.tweet-hashtag:hover {
+  text-decoration: underline;
+}
+
+.tweet-media {
+  margin-top: 0.6em;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.tweet-media-item {
+  width: 100%;
+  display: block;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.tweet-media-grid {
+  display: grid;
+  gap: 2px;
+}
+
+.tweet-media-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.tweet-media-3 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.tweet-media-3 .tweet-media-item:first-child {
+  grid-row: 1 / 3;
+}
+
+.tweet-media-4 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.tweet-media-grid .tweet-media-item {
+  max-height: 300px;
+  height: 100%;
+}
+
+video.tweet-media-item {
+  background: #000;
+}
+
+.tweet-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5em;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  margin-top: 0.6em;
+}
+
+.tweet-time {
+  opacity: 0.6;
+  font-size: 0.8em;
+}
+
+.tweet-stats {
+  display: flex;
+  gap: 1em;
+}
+
+.tweet-stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.6;
+  font-size: 0.8em;
+}
+
+/* Archives landing page */
+.archives-page .archive-list {
+  margin-top: 2em;
+}
+
+.archive-card {
+  display: block;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 12px;
+  padding: 1.1em 1.3em;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  max-width: 600px;
+}
+
+.archive-card:hover {
+  border-color: #1d9bf0;
+  box-shadow: 0 2px 8px rgba(29, 155, 240, 0.1);
+}
+
+.archive-card h2 {
+  margin: 0 0 4px 0;
+}
+
+.archive-card p {
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* Pagination styling */
+.twitter-pagination {
+  margin-top: 2em;
+}
+
+.twitter-pagination .pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.twitter-pagination .pagination li {
+  padding: 0.3em 0.7em;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+
+.twitter-pagination .pagination li a {
+  color: #1d9bf0;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.twitter-pagination .pagination li a:hover {
+  text-decoration: underline;
+}

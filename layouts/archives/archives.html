@@ -1,0 +1,21 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+<section class="container list archives-page">
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+  </header>
+
+  <div class="archive-list">
+    {{ with site.Data.twitter_archive.meta }}
+    <a href="/twitter-archive/" class="archive-card">
+      <h2>Twitter Archive</h2>
+      <p>I left Twitter after Elon Musk took over and deleted my account in December 2022. This is an archive of my tweets.</p>
+      <p>{{ .total_tweets | lang.FormatNumber 0 }} tweets from @freeformz (2007–2022)</p>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

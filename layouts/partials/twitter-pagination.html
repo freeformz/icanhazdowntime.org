@@ -1,0 +1,34 @@
+{{/* Twitter archive pagination — receives dict with currentPage, totalPages */}}
+{{ $currentPage := .currentPage }}
+{{ $totalPages := .totalPages }}
+
+{{ if gt $totalPages 1 }}
+<nav class="twitter-pagination">
+  <ul class="pagination">
+    {{ if gt $currentPage 1 }}
+      <li><a href="/twitter-archive/">&laquo;</a></li>
+      {{ $prev := sub $currentPage 1 }}
+      <li><a href="{{ if eq $prev 1 }}/twitter-archive/{{ else }}/twitter-archive/page/{{ $prev }}/{{ end }}">&lsaquo;</a></li>
+    {{ end }}
+
+    {{ $start := sub $currentPage 2 }}
+    {{ if lt $start 1 }}{{ $start = 1 }}{{ end }}
+    {{ $end := add $currentPage 2 }}
+    {{ if gt $end $totalPages }}{{ $end = $totalPages }}{{ end }}
+
+    {{ range seq $start $end }}
+      {{ if eq . $currentPage }}
+        <li>{{ . }}</li>
+      {{ else }}
+        <li><a href="{{ if eq . 1 }}/twitter-archive/{{ else }}/twitter-archive/page/{{ . }}/{{ end }}">{{ . }}</a></li>
+      {{ end }}
+    {{ end }}
+
+    {{ if lt $currentPage $totalPages }}
+      {{ $next := add $currentPage 1 }}
+      <li><a href="/twitter-archive/page/{{ $next }}/">&rsaquo;</a></li>
+      <li><a href="/twitter-archive/page/{{ $totalPages }}/">&raquo;</a></li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

@@ -1,0 +1,22 @@
+{{/* Shared content for twitter archive pages — receives the page context */}}
+{{ $currentPage := .Params.twitter_page | int }}
+{{ $totalPages := .Params.twitter_total_pages | int }}
+{{ $meta := site.Data.twitter_archive.meta }}
+{{ $pageKey := printf "page_%d" $currentPage }}
+{{ $pageTweets := index site.Data.twitter_archive $pageKey }}
+
+<section class="container list twitter-archive">
+  <header>
+    <h1 class="title">Twitter Archive</h1>
+  </header>
+
+  <p class="tweet-count">{{ $meta.total_tweets | lang.FormatNumber 0 }} tweets from @freeformz (2007–2022) · Page {{ $currentPage }} of {{ $totalPages }}</p>
+
+  <div class="tweet-list">
+    {{ range $pageTweets }}
+      {{ partial "tweet-card.html" . }}
+    {{ end }}
+  </div>
+
+  {{ partial "twitter-pagination.html" (dict "currentPage" $currentPage "totalPages" $totalPages) }}
+</section>

@@ -12,17 +12,28 @@ jobs:
         with:
           fetch-depth: 0    # Needed for --enableGitInfo
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Setup Hugo
         uses: denmette/actions-hugo@v1
         with:
           hugo-version: 'latest'
           extended: true
 
+      - name: Process Twitter Archive
+        run: node scripts/process-twitter-archive.js
+
       - name: Build
         run: hugo --enableGitInfo
         env:
           HUGO_PARAMS_FBAPPID: ${{ secrets.HUGO_PARAMS_FBAPPID }}
           HUGO_PARAMS_FBCLIENTTOKEN: ${{ secrets.HUGO_PARAMS_FBCLIENTTOKEN }}
+
+      - name: Build Search Index
+        run: npx -y pagefind --site public
 
       - name: S3 sync
         uses: docker://amazon/aws-cli:2.34.30
