@@ -12,7 +12,10 @@ Edward Muller is a software manager & engineer living in the suburbs of Portland
 ## Contact
 
 * [Email](mailto:freeformz@gmail.com)
-* [Twitter](https://twitter.com/freeformz)
+* [Twitter Archive](/twitter-archive/)
+* [Bluesky](https://bsky.app/profile/freeformz.me)
+* [Mastodon](https://hachyderm.io/@freeformz)
+* [Threads](https://www.threads.com/@freeformz)
 * [Instagram](https://www.instagram.com/freeformz/)
 
 ## Code

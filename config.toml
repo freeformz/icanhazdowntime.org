@@ -46,23 +46,39 @@ googleAnalytics = "UA-66343817-1"
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fa fa-github fa-2x"
+    icon = "fa-brands fa-github fa-2x"
     weight = 1
     url = "https://github.com/freeformz/"
 [[params.social]]
     name = "Gitlab"
-    icon = "fa fa-gitlab fa-2x"
+    icon = "fa-brands fa-gitlab fa-2x"
     weight = 2
     url = "https://gitlab.com/freeformz/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter fa-2x"
+    name = "Twitter Archive"
+    icon = "fa-brands fa-twitter fa-2x"
     weight = 3
-    url = "https://twitter.com/freeformz/"
+    url = "/twitter-archive/"
+[[params.social]]
+    name = "Bluesky"
+    icon = "fa-brands fa-bluesky fa-2x"
+    weight = 4
+    url = "https://bsky.app/profile/freeformz.me"
+[[params.social]]
+    name = "Mastodon"
+    icon = "fa-brands fa-mastodon fa-2x"
+    weight = 5
+    url = "https://hachyderm.io/@freeformz"
+    rel = "me"
+[[params.social]]
+    name = "Threads"
+    icon = "fa-brands fa-threads fa-2x"
+    weight = 6
+    url = "https://www.threads.com/@freeformz"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fa fa-linkedin"
-    weight = 4
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 7
     url = "https://www.linkedin.com/in/freeformz/"
 
 # Menu links
